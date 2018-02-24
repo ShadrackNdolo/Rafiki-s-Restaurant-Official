@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css" type="text/css">
+    <link rel="stylesheet" href="stylez.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <navbar class="main-nav">
+        <div class="row">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Rafikis logo.">
+            </div>
+            <ul class="main-nav">
+                <li class="active"><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="contactus.html">CONTACT US</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+            </ul>
+        </div>
+
+    </navbar>
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="assets/images/snow.png">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h3 class="karibu">Welcome to Rafiki's Restaurant!</h3>
+                    <h5 class="karibu">A taste of the world.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="assets/images/liftoff.jpg">
+                <!-- random image -->
+                <div class="caption left-align">
+                    <h3>Gourmet 2018 Restaurant Awards.</h3>
+                    <h5 class="light grey-text text-lighten-3">We have been nominated for best customer service.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="assets/images/mountains.png">
+                <!-- random image -->
+                <div class="caption right-align">
+                    <h3>Art Gallery.</h3>
+                    <h5 class="light grey-text text-lighten-3">Below are some of the pictures taken by our esteemed customers.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="assets/images/red.png">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <h3>Thank you,Please come again!</h3>
+                    <h5 class="light grey-text text-lighten-3">We appreciate & value your support & loyalty.</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.slider').slider({
+                full_width: true
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $('.carousel.carousel-slider').carousel({
+            full_width: true
+        });
+    </script>
+
+    <p>all taken pics in grids</p>
+
+
+</body>
+
+</html>

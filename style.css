@@ -122,3 +122,16 @@ h1 {
     transform: translate(-50%, -50%);
     box-sizing: border-box;
 }
+
+.about {
+    color: white;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    margin-left: 200px;
+    position: absolute;
+    width: 1000px;
+    margin-top: 75px;
+}
