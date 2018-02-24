@@ -1,8 +1,9 @@
+html,
 body {
     margin: 0;
     padding: 0;
     font-family: monospace;
-    background: url(pic1.jpg);
+    background-color: #000;
 }
 
 header {
@@ -12,14 +13,28 @@ header {
     background-position: center;
 }
 
+content {
+    width: 90%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.row {
+    position: fixed;
+    width: 100%;
+}
+
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .main-nav li {
     display: inline-block;
+    padding: 20px;
 }
 
 .main-nav li a {
@@ -134,4 +149,41 @@ h1 {
     position: absolute;
     width: 1000px;
     margin-top: 75px;
+}
+
+.carousel {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.Img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width:500px) {
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+    }
+    nav ul {
+        max-height: 0px;
+        background: #000;
+    }
+    nav.black ul {
+        background: #000;
+    }
+    .showing {
+        max-height:
+    }
+    nav ul li {
+        box-string: border-box;
+        width: 100;
+        padding: 24px 0;
+        text-align: center;
+    }
+    .menu-icon {
+        display: block;
+    }
 }
